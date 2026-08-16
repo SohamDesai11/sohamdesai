@@ -3,13 +3,29 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import aifinancialLogo from "../assets/AiFinancial.jpg";
 import cwLogo from "../assets/cw.png";
+import deafDive from "../assets/deafdive_logo.jpeg";
 
 const experiences = [
   {
     id: 1,
+    title: "Software Engineer Intern",
+    company: "DeafDive",
+    date: "May 2026 - Aug 2026",
+    bullets: [
+      "Deployed and maintained a production Flask-based ASL recognition API using Docker and AWS EC2, enabling real-time letter and word recognition via ML models, with cloud-based model management through AWS S3 for automatic updates.",
+      "Built infrastructure monitoring with AWS CloudWatch (application health, inference performance, container resource usage, authentication/session activity) and containerized backend services with Docker, configuring Gunicorn, Redis, and production deployment workflows",
+      "Designed and tested REST API endpoints for prediction, word recognition, session management, and analytics, while diagnosing and resolving failures in the company's CI/CD pipeline to restore reliable automated deployments"
+    ],
+    color: "bg-white text-[#0e0c1e]",
+    logo: deafDive,
+    logoText: "DD"
+  },
+
+  {
+    id: 2,
     title: "Data Analyst Co-Op",
     company: "Ai Financial",
-    date: "May. 2025 - Aug. 2025",
+    date: "May 2025 - Aug 2025",
     bullets: [
       "Built and optimized SQL Server procedures and Python automation pipelines to compute key investment metrics (IRR, XIRR, ROI), cutting ROI runtime by 70%",
       "Engineered robust ETL workflows with validation, checksums, and logging to ensure reliable, production‑grade data processing.",
@@ -20,7 +36,7 @@ const experiences = [
     logoText: "AF"
   },
   {
-    id: 2,
+    id: 3,
     title: "Acccess Control Associate",
     company: "Canada's Wonderland",
     date: "May 2023 - Dec. 2023",

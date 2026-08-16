@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { IoMenu } from "react-icons/io5";
 import { IoIosClose } from "react-icons/io";
 import { motion } from "framer-motion";
-import resume from "../assets/Soham_Desai_Resume (21).pdf";
+import resume from "../assets/Soham_Desai_Resume (6).pdf";
 
 const Navigation = () => {
 
